@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+.headtitle
+{
+    text-align: center;
+    color:#4733FF;
+}
+
+.loginForm
+{
+    text-align: center;    
+    margin:auto;
+    width:400px;
+}
+
+.errormsg
+{
+    text-align: center;
+    color:red;
+    padding-left:81px;
+}
+.ghusrnameerrmsg
+{
+    color:red;
+    margin-left:160px; 
+}
+.nav-to-login
+{
+    text-align: center;
+}
+.loginbtn,.resetbtn
+{
+    background-color:#EEEEF3;
+}
+
+#ghusernameForm
+{
+    margin-left:325px;
+    
+}
+.sendbtn
+{
+    margin-left:200px;
+}
+.ghdet
+{
+    margin-left:415px;
+}
+.logout {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size:20px;
+  }
+.loginlink{
+    text-align: center;
+    padding-left:480px;
+    font-size:20px;
+  }
+ 

@@ -1,0 +1,35 @@
+<html>
+  <h2 class="headtitle">Login</h2>
+  <body>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="loginForm">
+   <br>
+    <div class="form-group">
+        <label for="username">Username</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" formControlName="username" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.username.errors }"
+        [(ngModel)]="username" appUserNameValidator='username' />
+        <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+            <div class="errormsg">              
+              <div *ngIf="f.username.errors.UserNameNotAllowed">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Valid Username</div>              
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="password">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }"
+        [(ngModel)]="password" appUserNameValidator='password' />
+        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+           <div class="errormsg">
+             <div *ngIf="f.password.errors.PasswordNotAllowed">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Valid Password</div> 
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="form-group">
+        <button class="loginbtn">Login</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="resetbtn" type="reset">Clear</button>
+    </div>
+    <br>
+</form>
+</body>
+</html>

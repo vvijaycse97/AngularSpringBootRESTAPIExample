@@ -1,0 +1,24 @@
+<html>
+  <h1 class="headtitle">GitHub Details</h1>
+  <body class="ghdet">
+    <br>
+    <br>
+<div *ngIf="githublogin != 'Invalid User';then ValidUserDetails else InValidUserDetails" class="data-font">    </div>
+
+<ng-template #ValidUserDetails class="data-font">
+  Git Hub Details page!!!   
+  <p> UserName:&nbsp;&nbsp;{{githublogin}} </p>
+  <p> Created At:&nbsp;&nbsp;{{githubcreatedat}} </p>
+  <p> Updated At:&nbsp;&nbsp;{{githubupdatedat}} </p>
+  <p> Public Repos:&nbsp;&nbsp;{{githubpublicrepos}} </p>
+</ng-template>
+<ng-template #InValidUserDetails class="data-font">
+  Invalid GitHub User! 
+  <br>
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click  <a routerLink="/success" class="successpagelink" routerLinkActive="active"> here</a>       
+</ng-template>
+<a routerLink="/logout" class="logout" routerLinkActive="active">Logout</a> 
+  </body>
+  </html>
+

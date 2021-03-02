@@ -1,0 +1,330 @@
+src/main/java/com/example/ImptProjectApplication.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/example/ImptProjectApplication.java:10:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/example/ImptProjectApplication.java:10:	CommentRequired: Class comments are required
+src/main/java/com/example/ImptProjectApplication.java:10:	CommentRequired: Class comments are required
+src/main/java/com/example/ImptProjectApplication.java:12:	MethodArgumentCouldBeFinal: Parameter 'application' is not assigned and could be declared final
+src/main/java/com/example/ImptProjectApplication.java:12:	MethodArgumentCouldBeFinal: Parameter 'application' is not assigned and could be declared final
+src/main/java/com/example/ImptProjectApplication.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/ImptProjectApplication.java:16:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/ImptProjectApplication.java:16:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/example/ImptProjectApplication.java:16:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:35:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/example/controller/MyController.java:35:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/example/controller/MyController.java:35:	CommentRequired: Class comments are required
+src/main/java/com/example/controller/MyController.java:35:	CommentRequired: Class comments are required
+src/main/java/com/example/controller/MyController.java:38:	CommentRequired: Field comments are required
+src/main/java/com/example/controller/MyController.java:38:	CommentRequired: Field comments are required
+src/main/java/com/example/controller/MyController.java:40:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:40:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:40:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:40:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:40:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:40:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:44:	AvoidDuplicateLiterals: The String literal "login" appears 8 times in this file; the first occurrence is on line 44
+src/main/java/com/example/controller/MyController.java:44:	AvoidDuplicateLiterals: The String literal "login" appears 8 times in this file; the first occurrence is on line 44
+src/main/java/com/example/controller/MyController.java:47:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:47:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:47:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:47:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:47:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:47:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:60:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:60:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:60:	MethodArgumentCouldBeFinal: Parameter 'bindingResult' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:60:	MethodArgumentCouldBeFinal: Parameter 'bindingResult' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:60:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:60:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:60:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:60:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:61:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:61:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:64:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:64:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:64:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:64:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:64:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:64:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:64:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:64:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:64:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:64:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:65:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:65:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:65:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:65:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:65:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:65:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:65:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:70:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:70:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:72:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/com/example/controller/MyController.java:72:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/com/example/controller/MyController.java:72:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:72:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:72:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:72:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:73:	ControlStatementBraces: This statement should have braces
+src/main/java/com/example/controller/MyController.java:73:	ControlStatementBraces: This statement should have braces
+src/main/java/com/example/controller/MyController.java:74:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/com/example/controller/MyController.java:74:	IfStmtsMustUseBraces: Avoid using if statements without curly braces
+src/main/java/com/example/controller/MyController.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:74:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:74:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:74:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/main/java/com/example/controller/MyController.java:75:	ControlStatementBraces: This statement should have braces
+src/main/java/com/example/controller/MyController.java:75:	ControlStatementBraces: This statement should have braces
+src/main/java/com/example/controller/MyController.java:76:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'bindRes' (lines '76'-'77').
+src/main/java/com/example/controller/MyController.java:76:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'bindRes' (lines '76'-'77').
+src/main/java/com/example/controller/MyController.java:76:	UnusedAssignment: The initializer for variable 'bindRes' is never used (overwritten on line 77)
+src/main/java/com/example/controller/MyController.java:76:	UnusedAssignment: The initializer for variable 'bindRes' is never used (overwritten on line 77)
+src/main/java/com/example/controller/MyController.java:76:	UnusedLocalVariable: Avoid unused local variables such as 'bindRes'.
+src/main/java/com/example/controller/MyController.java:76:	UnusedLocalVariable: Avoid unused local variables such as 'bindRes'.
+src/main/java/com/example/controller/MyController.java:76:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/example/controller/MyController.java:76:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/example/controller/MyController.java:77:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'bindRes' (lines '77'-'88').
+src/main/java/com/example/controller/MyController.java:77:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'bindRes' (lines '77'-'88').
+src/main/java/com/example/controller/MyController.java:77:	UnusedAssignment: The value assigned to variable 'bindRes' is never used
+src/main/java/com/example/controller/MyController.java:77:	UnusedAssignment: The value assigned to variable 'bindRes' is never used
+src/main/java/com/example/controller/MyController.java:79:	LocalVariableCouldBeFinal: Local variable 'emsg' could be declared final
+src/main/java/com/example/controller/MyController.java:79:	LocalVariableCouldBeFinal: Local variable 'emsg' could be declared final
+src/main/java/com/example/controller/MyController.java:89:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/controller/MyController.java:89:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/controller/MyController.java:93:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:93:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'request' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'response' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:93:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:98:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:98:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:98:	LocalVariableCouldBeFinal: Local variable 'auth' could be declared final
+src/main/java/com/example/controller/MyController.java:98:	LocalVariableCouldBeFinal: Local variable 'auth' could be declared final
+src/main/java/com/example/controller/MyController.java:100:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/controller/MyController.java:100:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/controller/MyController.java:102:	LocalVariableCouldBeFinal: Local variable 'ctxLogOut' could be declared final
+src/main/java/com/example/controller/MyController.java:102:	LocalVariableCouldBeFinal: Local variable 'ctxLogOut' could be declared final
+src/main/java/com/example/controller/MyController.java:118:	AvoidDuplicateLiterals: The String literal "githubUserInfoPage" appears 7 times in this file; the first occurrence is on line 118
+src/main/java/com/example/controller/MyController.java:118:	AvoidDuplicateLiterals: The String literal "githubUserInfoPage" appears 7 times in this file; the first occurrence is on line 118
+src/main/java/com/example/controller/MyController.java:119:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:119:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:119:	CyclomaticComplexity: The method 'githubUserInfoPage(Model, Login, BindingResult, GithubUser, HttpSession)' has a cyclomatic complexity of 10.
+src/main/java/com/example/controller/MyController.java:119:	CyclomaticComplexity: The method 'githubUserInfoPage(Model, Login, BindingResult, GithubUser, HttpSession)' has a cyclomatic complexity of 10.
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'bindingResult' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'bindingResult' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:119:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:121:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'githubUser' (lines '121'-'133').
+src/main/java/com/example/controller/MyController.java:121:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'githubUser' (lines '121'-'133').
+src/main/java/com/example/controller/MyController.java:121:	UnusedAssignment: The initializer for variable 'githubUser' is never used (overwritten on line 133)
+src/main/java/com/example/controller/MyController.java:121:	UnusedAssignment: The initializer for variable 'githubUser' is never used (overwritten on line 133)
+src/main/java/com/example/controller/MyController.java:122:	LocalVariableCouldBeFinal: Local variable 'githubLink' could be declared final
+src/main/java/com/example/controller/MyController.java:122:	LocalVariableCouldBeFinal: Local variable 'githubLink' could be declared final
+src/main/java/com/example/controller/MyController.java:123:	LocalVariableCouldBeFinal: Local variable 'githubFullLink' could be declared final
+src/main/java/com/example/controller/MyController.java:123:	LocalVariableCouldBeFinal: Local variable 'githubFullLink' could be declared final
+src/main/java/com/example/controller/MyController.java:124:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'bindRes' (lines '124'-'163').
+src/main/java/com/example/controller/MyController.java:124:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'bindRes' (lines '124'-'163').
+src/main/java/com/example/controller/MyController.java:124:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'bindRes' (lines '124'-'175').
+src/main/java/com/example/controller/MyController.java:124:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'bindRes' (lines '124'-'175').
+src/main/java/com/example/controller/MyController.java:124:	UnusedAssignment: The initializer for variable 'bindRes' is never used (overwritten on line 163)
+src/main/java/com/example/controller/MyController.java:124:	UnusedAssignment: The initializer for variable 'bindRes' is never used (overwritten on line 163)
+src/main/java/com/example/controller/MyController.java:124:	UnusedLocalVariable: Avoid unused local variables such as 'bindRes'.
+src/main/java/com/example/controller/MyController.java:124:	UnusedLocalVariable: Avoid unused local variables such as 'bindRes'.
+src/main/java/com/example/controller/MyController.java:124:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/example/controller/MyController.java:124:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/example/controller/MyController.java:132:	LocalVariableCouldBeFinal: Local variable 'restTemplate' could be declared final
+src/main/java/com/example/controller/MyController.java:132:	LocalVariableCouldBeFinal: Local variable 'restTemplate' could be declared final
+src/main/java/com/example/controller/MyController.java:136:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:136:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:136:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:136:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:137:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:137:	LawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/example/controller/MyController.java:137:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:137:	UselessParentheses: Useless parentheses.
+src/main/java/com/example/controller/MyController.java:151:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:151:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:159:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/example/controller/MyController.java:159:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/example/controller/MyController.java:163:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'bindRes' (lines '163'-'175').
+src/main/java/com/example/controller/MyController.java:163:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'bindRes' (lines '163'-'175').
+src/main/java/com/example/controller/MyController.java:163:	UnusedAssignment: The value assigned to variable 'bindRes' is never used
+src/main/java/com/example/controller/MyController.java:163:	UnusedAssignment: The value assigned to variable 'bindRes' is never used
+src/main/java/com/example/controller/MyController.java:164:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:164:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:166:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/example/controller/MyController.java:166:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/example/controller/MyController.java:170:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/example/controller/MyController.java:170:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/example/controller/MyController.java:171:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:171:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:179:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:179:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'model' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'session' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:179:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/com/example/controller/MyController.java:182:	LocalVariableCouldBeFinal: Local variable 'githubLink' could be declared final
+src/main/java/com/example/controller/MyController.java:182:	LocalVariableCouldBeFinal: Local variable 'githubLink' could be declared final
+src/main/java/com/example/controller/MyController.java:188:	LocalVariableCouldBeFinal: Local variable 'githubRepoLink' could be declared final
+src/main/java/com/example/controller/MyController.java:188:	LocalVariableCouldBeFinal: Local variable 'githubRepoLink' could be declared final
+src/main/java/com/example/controller/MyController.java:189:	LocalVariableCouldBeFinal: Local variable 'restTemplate' could be declared final
+src/main/java/com/example/controller/MyController.java:189:	LocalVariableCouldBeFinal: Local variable 'restTemplate' could be declared final
+src/main/java/com/example/controller/MyController.java:190:	LocalVariableCouldBeFinal: Local variable 'repos' could be declared final
+src/main/java/com/example/controller/MyController.java:190:	LocalVariableCouldBeFinal: Local variable 'repos' could be declared final
+src/main/java/com/example/controller/MyController.java:191:	LocalVariableCouldBeFinal: Local variable 'ghRepoDet' could be declared final
+src/main/java/com/example/controller/MyController.java:191:	LocalVariableCouldBeFinal: Local variable 'ghRepoDet' could be declared final
+src/main/java/com/example/controller/MyController.java:191:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/example/controller/MyController.java:191:	UseDiamondOperator: Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/example/controller/MyController.java:196:	LocalVariableCouldBeFinal: Local variable 'repo' could be declared final
+src/main/java/com/example/controller/MyController.java:196:	LocalVariableCouldBeFinal: Local variable 'repo' could be declared final
+src/main/java/com/example/controller/MyController.java:204:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:204:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:207:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/example/controller/MyController.java:207:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/example/controller/MyController.java:210:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/example/controller/MyController.java:210:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/main/java/com/example/controller/MyController.java:211:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/controller/MyController.java:211:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/example/pojo/Login.java:8:	CommentRequired: Class comments are required
+src/main/java/com/example/pojo/Login.java:8:	CommentRequired: Class comments are required
+src/main/java/com/example/pojo/Login.java:8:	DataClass: The class 'Login' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+src/main/java/com/example/pojo/Login.java:8:	DataClass: The class 'Login' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=8, WMC=10)
+src/main/java/com/example/pojo/Login.java:11:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:11:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:14:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:14:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:16:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:16:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:17:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:17:	CommentRequired: Field comments are required
+src/main/java/com/example/pojo/Login.java:17:	RedundantFieldInitializer: Avoid using redundant field initializer for 'ghRepDet'
+src/main/java/com/example/pojo/Login.java:17:	RedundantFieldInitializer: Avoid using redundant field initializer for 'ghRepDet'
+src/main/java/com/example/pojo/Login.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/pojo/Login.java:20:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/pojo/Login.java:20:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/example/pojo/Login.java:20:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/example/pojo/Login.java:23:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/pojo/Login.java:23:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/example/pojo/Login.java:23:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:23:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:23:	MethodArgumentCouldBeFinal: Parameter 'userPwd' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:23:	MethodArgumentCouldBeFinal: Parameter 'userPwd' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:31:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:31:	MethodArgumentCouldBeFinal: Parameter 'userName' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:37:	MethodArgumentCouldBeFinal: Parameter 'userPwd' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:37:	MethodArgumentCouldBeFinal: Parameter 'userPwd' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:43:	MethodArgumentCouldBeFinal: Parameter 'githubusername' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:43:	MethodArgumentCouldBeFinal: Parameter 'githubusername' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:49:	MethodArgumentCouldBeFinal: Parameter 'ghRepDet' is not assigned and could be declared final
+src/main/java/com/example/pojo/Login.java:49:	MethodArgumentCouldBeFinal: Parameter 'ghRepDet' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/example/user/GithubUser.java:7:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/example/user/GithubUser.java:7:	CommentRequired: Class comments are required
+src/main/java/com/example/user/GithubUser.java:7:	CommentRequired: Class comments are required
+src/main/java/com/example/user/GithubUser.java:7:	DataClass: The class 'GithubUser' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+src/main/java/com/example/user/GithubUser.java:7:	DataClass: The class 'GithubUser' is suspected to be a Data Class (WOC=6.667%, NOPA=0, NOAM=14, WMC=15)
+src/main/java/com/example/user/GithubUser.java:8:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:8:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:9:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:9:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:10:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:10:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:11:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:11:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:13:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:13:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:15:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:15:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:17:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:17:	CommentRequired: Field comments are required
+src/main/java/com/example/user/GithubUser.java:21:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:21:	MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:27:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:27:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:33:	MethodArgumentCouldBeFinal: Parameter 'company' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:33:	MethodArgumentCouldBeFinal: Parameter 'company' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:39:	MethodArgumentCouldBeFinal: Parameter 'location' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:39:	MethodArgumentCouldBeFinal: Parameter 'location' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:45:	MethodArgumentCouldBeFinal: Parameter 'createdAt' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:45:	MethodArgumentCouldBeFinal: Parameter 'createdAt' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:51:	MethodArgumentCouldBeFinal: Parameter 'updatedAt' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:51:	MethodArgumentCouldBeFinal: Parameter 'updatedAt' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:57:	MethodArgumentCouldBeFinal: Parameter 'publicRepos' is not assigned and could be declared final
+src/main/java/com/example/user/GithubUser.java:57:	MethodArgumentCouldBeFinal: Parameter 'publicRepos' is not assigned and could be declared final
+src/main/java/com/example/util/ConstantsUtil.java:3:	CommentRequired: Class comments are required
+src/main/java/com/example/util/ConstantsUtil.java:3:	CommentRequired: Class comments are required
+src/main/java/com/example/util/ConstantsUtil.java:8:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:8:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:8:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:8:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:9:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:9:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:9:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:9:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:10:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:10:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:10:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:10:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:11:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:11:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:11:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:11:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:12:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:12:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:12:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:12:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:13:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:13:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:13:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:13:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:14:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:14:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:14:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:14:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:15:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:15:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:15:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:15:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:16:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:16:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:16:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:16:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:17:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:17:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:17:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:17:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:18:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:18:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:18:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:18:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:18:	LongVariable: Avoid excessively long variable names like EMAILIMGATTACHMENT
+src/main/java/com/example/util/ConstantsUtil.java:18:	LongVariable: Avoid excessively long variable names like EMAILIMGATTACHMENT
+src/main/java/com/example/util/ConstantsUtil.java:19:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/util/ConstantsUtil.java:19:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/util/ConstantsUtil.java:20:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/util/ConstantsUtil.java:20:	CommentSize: Comment is too large: Line too long
+src/main/java/com/example/util/ConstantsUtil.java:21:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:21:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:21:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:21:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:22:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:22:	CommentRequired: Field comments are required
+src/main/java/com/example/util/ConstantsUtil.java:22:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/com/example/util/ConstantsUtil.java:22:	FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.

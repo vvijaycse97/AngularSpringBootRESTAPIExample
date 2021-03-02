@@ -1,0 +1,28 @@
+<html>
+  <h1 class="headtitle">Welcome {{username}}</h1> 
+  
+<body>
+<br>
+<form [formGroup]="successForm" (ngSubmit)="onSubmit()" id="ghusernameForm">
+  <br>
+  <br>
+  <div class="form-group">
+    <br>    
+      <label for="githubusername">Git Hub Username</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" formControlName="githubusername" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.githubusername.errors }"
+      [(ngModel)]="githubusername" />
+      <div *ngIf="submitted && f.githubusername.errors" class="invalid-feedback">
+          <div class="ghusrnameerrmsg">
+            <div *ngIf="f.githubusername.errors.required">&nbsp;&nbsp;Git Hub Username is required</div>
+          </div>
+      </div>
+      <br>
+      <br>      
+      <button class="sendbtn">Send</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </div>  
+</form>
+
+  <a routerLink="/logout" class="logout" routerLinkActive="active">Logout</a>
+
+</body>
+</html>

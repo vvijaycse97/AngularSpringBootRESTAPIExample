@@ -1,0 +1,72 @@
+2021-02-02 13:06:04,278 INFO com.example.ImptProjectApplication [main] Starting ImptProjectApplication on Vijay with PID 8036 (E:\Contents\sbws\AngularSBConnect\SBLogin\target\classes started by Vijay in E:\Contents\sbws\AngularSBConnect)
+2021-02-02 13:06:05,035 DEBUG com.example.ImptProjectApplication [main] Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.3.RELEASE
+2021-02-02 13:06:05,037 INFO com.example.ImptProjectApplication [main] No active profile set, falling back to default profiles: default
+2021-02-02 13:06:14,559 INFO org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [main] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e423aa2: startup date [Tue Feb 02 13:06:14 IST 2021]; root of context hierarchy
+2021-02-02 13:06:30,447 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 5.3.6.Final
+2021-02-02 13:06:44,066 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat initialized with port(s): 5002 (http)
+2021-02-02 13:06:44,314 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-02-02 13:06:44,333 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet Engine: Apache Tomcat/8.5.23
+2021-02-02 13:06:47,137 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2021-02-02 13:06:47,137 INFO org.springframework.web.context.ContextLoader [localhost-startStop-1] Root WebApplicationContext: initialization completed in 32578 ms
+2021-02-02 13:06:48,562 INFO org.springframework.boot.web.servlet.ServletRegistrationBean [localhost-startStop-1] Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-02 13:06:48,662 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-02 13:06:48,663 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-02 13:06:48,664 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-02-02 13:06:48,664 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'requestContextFilter' to: [/*]
+2021-02-02 13:06:48,665 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'CORSFilter' to: [/*]
+2021-02-02 13:06:48,666 INFO org.springframework.boot.web.servlet.FilterRegistrationBean [localhost-startStop-1] Mapping filter: 'corsFilter' to: [/*]
+2021-02-02 13:06:49,413 DEBUG com.example.encryptiondecryption.CORSFilter [localhost-startStop-1] Initializing filter 'corsFilter'
+2021-02-02 13:06:49,414 DEBUG com.example.encryptiondecryption.CORSFilter [localhost-startStop-1] Filter 'corsFilter' configured successfully
+2021-02-02 13:06:49,416 DEBUG com.example.encryptiondecryption.CORSFilter$$EnhancerBySpringCGLIB$$ced3d90e [localhost-startStop-1] Initializing filter 'CORSFilter'
+2021-02-02 13:06:49,416 DEBUG com.example.encryptiondecryption.CORSFilter$$EnhancerBySpringCGLIB$$ced3d90e [localhost-startStop-1] Filter 'CORSFilter' configured successfully
+2021-02-02 13:06:54,606 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4e423aa2: startup date [Tue Feb 02 13:06:14 IST 2021]; root of context hierarchy
+2021-02-02 13:06:55,380 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/test],methods=[GET]}" onto public com.example.user.GithubUser com.example.controller.MyController.test(org.springframework.ui.Model,javax.servlet.http.HttpSession,java.lang.String,com.example.user.GithubUser)
+2021-02-02 13:06:55,383 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/logout],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.controller.MyController.logoutPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2021-02-02 13:06:55,385 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/githubUserInfoPage],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.example.controller.MyController.githubUserInfoPage(org.springframework.ui.Model,com.example.pojo.Login,org.springframework.validation.BindingResult,com.example.user.GithubUser,javax.servlet.http.HttpSession)
+2021-02-02 13:06:55,386 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/githubRepoDet],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.example.controller.MyController.githubRepoDet(org.springframework.ui.Model,com.example.pojo.Login,com.example.user.GithubUser,javax.servlet.http.HttpSession)
+2021-02-02 13:06:55,387 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.example.controller.MyController.homePage(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2021-02-02 13:06:55,387 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/login],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.controller.MyController.loginForm(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+2021-02-02 13:06:55,388 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/validateUser],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.example.controller.MyController.validateUser(org.springframework.ui.ModelMap,com.example.pojo.Login,org.springframework.validation.BindingResult,javax.servlet.http.HttpSession)
+2021-02-02 13:06:55,405 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-02 13:06:55,407 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-02-02 13:06:55,505 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-02 13:06:55,506 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-02 13:06:55,762 INFO org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-02 13:06:56,125 WARN org.thymeleaf.templatemode.TemplateMode [main] [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-02-02 13:06:58,951 INFO org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WelcomePageHandlerMapping [main] Adding welcome page: class path resource [static/index.html]
+2021-02-02 13:07:00,562 INFO org.springframework.jmx.export.annotation.AnnotationMBeanExporter [main] Registering beans for JMX exposure on startup
+2021-02-02 13:07:00,690 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-5002"]
+2021-02-02 13:07:00,761 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-5002"]
+2021-02-02 13:07:00,854 INFO org.apache.tomcat.util.net.NioSelectorPool [main] Using a shared selector for servlet write/read
+2021-02-02 13:07:01,133 INFO org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [main] Tomcat started on port(s): 5002 (http)
+2021-02-02 13:07:01,152 INFO com.example.ImptProjectApplication [main] Started ImptProjectApplication in 69.761 seconds (JVM running for 80.458)
+2021-02-02 13:07:53,806 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-5002-exec-2] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-02 13:07:53,806 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-5002-exec-2] FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-02 13:07:54,016 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-5002-exec-2] FrameworkServlet 'dispatcherServlet': initialization completed in 209 ms
+2021-02-02 13:07:54,777 WARN org.apache.catalina.util.SessionIdGeneratorBase [http-nio-5002-exec-2] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [172] milliseconds.
+2021-02-02 13:07:54,782 INFO com.example.controller.MyController [http-nio-5002-exec-2] homePage()
+2021-02-02 13:09:55,571 INFO com.example.controller.MyController [http-nio-5002-exec-1] test() and param value githubusername is ----->vvijaycse97
+2021-02-02 13:09:57,226 INFO com.example.controller.MyController [http-nio-5002-exec-1] User Details:    GithubUser [login=vvijaycse97, email=null, company=null, location=null, createdAt=2018-11-02T14:07:47Z, updatedAt=2021-01-12T10:37:10Z, publicRepos=3]
+2021-02-02 13:09:57,244 INFO com.example.controller.MyController [http-nio-5002-exec-1]  github api user login name from Angular  -->vvijaycse97
+2021-02-02 13:09:57,245 INFO com.example.controller.MyController [http-nio-5002-exec-1]  github api user login   -->vvijaycse97
+2021-02-02 13:09:57,245 INFO com.example.controller.MyController [http-nio-5002-exec-1]  github api user created date   -->2018-11-02T14:07:47Z
+2021-02-02 13:09:57,245 INFO com.example.controller.MyController [http-nio-5002-exec-1]  github api user updated date   -->2021-01-12T10:37:10Z
+2021-02-02 13:09:57,246 INFO com.example.controller.MyController [http-nio-5002-exec-1]  github api user public repos   -->3
+2021-02-02 13:09:57,246 INFO com.example.controller.MyController [http-nio-5002-exec-1]  Returning githubuser object from spring boot to angularGithubUser [login=vvijaycse97, email=null, company=null, location=null, createdAt=2018-11-02T14:07:47Z, updatedAt=2021-01-12T10:37:10Z, publicRepos=3]
+2021-02-02 13:10:11,253 INFO com.example.controller.MyController [http-nio-5002-exec-8] test() and param value githubusername is ----->zdczdcxcvxv121112
+2021-02-02 13:10:11,717 ERROR com.example.controller.MyController [http-nio-5002-exec-8] HttpClientErrorException occurred 
+2021-02-02 13:10:11,730 INFO com.example.controller.MyController [http-nio-5002-exec-8] Not able to fetch the entered github user details !!!!
+2021-02-02 13:12:48,687 INFO com.example.controller.MyController [http-nio-5002-exec-4] test() and param value githubusername is ----->dstsdfggdsg
+2021-02-02 13:12:49,301 ERROR com.example.controller.MyController [http-nio-5002-exec-4] HttpClientErrorException occurred 
+2021-02-02 13:12:49,310 INFO com.example.controller.MyController [http-nio-5002-exec-4] Not able to fetch the entered github user details !!!!
+2021-02-02 13:23:41,831 INFO com.example.controller.MyController [http-nio-5002-exec-2] test() and param value githubusername is ----->vvijaycse97
+2021-02-02 13:23:42,333 INFO com.example.controller.MyController [http-nio-5002-exec-2] User Details:    GithubUser [login=vvijaycse97, email=null, company=null, location=null, createdAt=2018-11-02T14:07:47Z, updatedAt=2021-01-12T10:37:10Z, publicRepos=3]
+2021-02-02 13:23:42,336 INFO com.example.controller.MyController [http-nio-5002-exec-2]  github api user login name from Angular  -->vvijaycse97
+2021-02-02 13:23:42,338 INFO com.example.controller.MyController [http-nio-5002-exec-2]  github api user login   -->vvijaycse97
+2021-02-02 13:23:42,338 INFO com.example.controller.MyController [http-nio-5002-exec-2]  github api user created date   -->2018-11-02T14:07:47Z
+2021-02-02 13:23:42,340 INFO com.example.controller.MyController [http-nio-5002-exec-2]  github api user updated date   -->2021-01-12T10:37:10Z
+2021-02-02 13:23:42,340 INFO com.example.controller.MyController [http-nio-5002-exec-2]  github api user public repos   -->3
+2021-02-02 13:23:42,340 INFO com.example.controller.MyController [http-nio-5002-exec-2]  Returning githubuser object from spring boot to angularGithubUser [login=vvijaycse97, email=null, company=null, location=null, createdAt=2018-11-02T14:07:47Z, updatedAt=2021-01-12T10:37:10Z, publicRepos=3]
+2021-02-02 13:23:52,825 INFO com.example.controller.MyController [http-nio-5002-exec-9] test() and param value githubusername is ----->dfgdfgfdgdgf
+2021-02-02 13:23:53,277 ERROR com.example.controller.MyController [http-nio-5002-exec-9] HttpClientErrorException occurred 
+2021-02-02 13:23:53,287 INFO com.example.controller.MyController [http-nio-5002-exec-9] Not able to fetch the entered github user details !!!!
